@@ -1,0 +1,71 @@
+{
+  "companies": [
+    {
+      "id": "2",
+      "name": "ENTNT",
+      "lastCommunications": [
+        {
+          "id": "1",
+          "type": "Email",
+          "date": "2025-01-02",
+          "notes": "Follow-up on proposal"
+        },
+        {
+          "id": "2",
+          "type": "Linkedin Message",
+          "date": "2024-11-25",
+          "notes": "Initial contact"
+        }
+      ],
+      "nextCommunication": [],
+      "location": "USA",
+      "linkedInProfile": "",
+      "comments": "Adsf"
+    },
+    {
+      "id": "3",
+      "name": "GlobalLogic",
+      "lastCommunications": [
+        {
+          "id": "3",
+          "type": "Email",
+          "date": "2025-01-01",
+          "notes": "Schedule a meeting for project update"
+        }
+      ],
+      "nextCommunication": [],
+      "location": "India",
+      "linkedInProfile": "",
+      "comments": "Important client"
+    }
+  ],
+  "communications": [
+    {
+      "id": "1",
+      "companyId": 1,
+      "type": "Email",
+      "date": "2025-01-02",
+      "notes": "Follow-up on proposal"
+    }
+  ],
+  "communicationMethods": [
+    {
+      "name": "cttest-[king]1",
+      "mandatory": true,
+      "sequence": "1",
+      "id": "70d0"
+    },
+    {
+      "id": "0bdb",
+      "name": "Linkedin Email",
+      "mandatory": true,
+      "sequence": "2"
+    },
+    {
+      "id": "d24c",
+      "name": "ProjPort",
+      "mandatory": true,
+      "sequence": "3"
+    }
+  ]
+}
